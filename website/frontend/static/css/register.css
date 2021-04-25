@@ -1,0 +1,73 @@
+.reg-main {
+    height: 100%;
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+}
+
+.img {
+    background-image: url('https://source.unsplash.com/random');
+    background-repeat: no-repeat;
+    background-color: whitesmoke;
+    background-size: cover;
+    background-position: center;
+    width: 40%;
+    border-top-left-radius: 5%;
+    border-bottom-left-radius: 5%;
+}
+
+.paper-container {
+    width: 40%;
+    padding-top: 7vh;
+    background-color: whitesmoke;
+    border-top-right-radius: 5%;
+    border-bottom-right-radius: 5%;
+}
+
+.paper {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+    box-shadow: none;
+    background-color: whitesmoke;
+    max-width: 65%;
+    padding: 0 !important;
+}
+
+.login-paper-container {
+    width: 40%;
+    padding-top: 15vh;
+    background-color: whitesmoke;
+    border-top-right-radius: 5%;
+    border-bottom-right-radius: 5%;
+}
+
+.avatar {
+    margin: auto;
+    background-color: rgb(180, 58, 115);
+}
+
+.form {
+    width: 100%;
+}
+
+.submit {
+    margin: auto;
+}
+
+.form > p {
+    font-size: 10px;
+    padding: 0;
+    margin: 0;
+    color: red;
+}
+
+.reg-links {
+    font-size: 12px;
+}
+
+.reg-links-container {
+    flex-direction: column;
+}

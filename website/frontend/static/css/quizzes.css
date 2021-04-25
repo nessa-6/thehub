@@ -1,0 +1,34 @@
+
+.main {
+  height: 100%;
+  padding: 5vh;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.topic-text {
+  font-size: 40px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+  padding: 30px;
+}
+
+.rating {
+  width: 200px;
+  display: flex;
+  align-items: center;
+}
+
+.elems {
+  display: flex;
+}
+
+.quiz-list {
+  width: 100%;
+}
+
+.type-box {
+  width: 50%;
+  padding: 10px;
+  box-shadow: rgba(149, 157, 165, 0.4) 0px 8px 24px;
+  border-radius: 5%;
+}
