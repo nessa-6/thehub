@@ -5,8 +5,11 @@
   "main": "index.js",
   "scripts": {
     "dev": "webpack --mode development --watch",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
+  "homepage": "http://nessa-6.github.io/thehub",
   "keywords": [],
   "author": "",
   "license": "ISC",
